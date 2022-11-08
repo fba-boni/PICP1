@@ -35,7 +35,7 @@ Esta entrega é do participante: FEBRONIO BOMFIM ALVES
 
 function exibeResultado(tempo, tpadrao) {
     if (tempo < tpadrao) {
-        console.log("Tempo insuficiente");
+        return "Tempo insuficiente";
     } else {
         if (tempo > 3 * tpadrao) {
             return "Kabum!";

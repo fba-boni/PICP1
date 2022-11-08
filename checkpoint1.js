@@ -1,17 +1,13 @@
 /**
  * Primeiro Checkpoint - Turma 1
 Olá, você foi contratado para executar este projeto. É importante que você analise, entenda o pedido do cliente e desenvolva conforme solicitado. Veja abaixo os requisitos do projeto:
-
 OBS: Entrega até 16/11/2022 -> 23:59
-
 - Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
-
       1 - Pipoca – 10 segundos (padrão);
       2 - Macarrão – 8 segundos (padrão);
       3 - Carne – 15 segundos (padrão);
       4 - Feijão – 12 segundos (padrão);
       5 - Brigadeiro – 8 segundos (padrão); 
-
 - O usuário poderá alterar o tempo padrão, aumentando ou diminuindo de acordo com sua vontade. 
 - Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
 - Se o tempo for menor que o padrão, exibir a mensagem: "tempo insuficiente"; 
@@ -23,6 +19,17 @@ Seguir a regra:
 Function microondas(opcao, tempo){
 }
 Microondas(1,20)
+
+=====================================
+Turma 01 - Sala 2 - Participantes:
+Edwins Elias Colina
+Febronio Bomfim Alves
+Nicole Alves Vieira
+Thiago Rocha Vasconcelos Silva
+Vinicius Figueiredo Alexo
+=====================================
+Esta entrega é do participante: FEBRONIO BOMFIM ALVES
+=====================================
 
  */
 
@@ -72,4 +79,4 @@ microondas(1, 31);
 microondas(2, 20);
 microondas(3, 20);
 microondas(4, 20);
-microondas(5, 20);
+microondas(8, 20);

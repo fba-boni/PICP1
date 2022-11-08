@@ -41,9 +41,9 @@ function exibeResultado(tempo, tpadrao) {
             return "Kabum!";
         } else {
             if (tempo > 2 * tpadrao) {
-                return("Comida Queimou!");
+                return "Comida Queimou!";
             } else {
-                return("Prato Pronto! Bom apetite!");
+                return "Prato Pronto! Bom apetite!";
             }
         }
     }

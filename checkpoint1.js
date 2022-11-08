@@ -72,7 +72,7 @@ function microondas(opcao, tempo) {
             console.log(exibeResultado(tempo, 8));
             break;
         default:
-            console.log("Opção inválida! - Prato inexistente")
+            console.log("Opção inválida! - Prato inexistente");
     }
 }
 microondas(1, 31);
